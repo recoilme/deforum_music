@@ -239,7 +239,7 @@
     "delete_imgs": true,
     "delete_input_frames": false,
     "add_soundtrack": "File",
-    "soundtrack_path": "example.mp3",
+    "soundtrack_path": "/home/recoilme/deforum_music/example.mp3",
     "r_upscale_video": false,
     "r_upscale_factor": "x2",
     "r_upscale_model": "realesr-animevideov3",

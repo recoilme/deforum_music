@@ -20,3 +20,14 @@ apply corrective coefficients reducing minima at breaks.
 prompt (break points),
 config /strength (directly and inversely proportional to the amplitudes of the wave oscillations),
 changes along all coordinates according to the wave functions (X, Y, Z, 3dX, 3dY).
+
+### tldr;
+It probably sounds complicated, but in short: you choose a track - press generate settings. You upload the settings to the deforum - press generate video.
+
+
+Recommended model: https://civitai.com/models/185258/colorfulxl
+
+### examples:
+[examples](https://www.youtube.com/@babkasotona/videos)
+
+### Project by [AiArtLab](https://aiartlab.org/)
