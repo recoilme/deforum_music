@@ -1,14 +1,22 @@
-## ## Deforum music
+#### Deforum music
 
 ### A research project with the ambitious goal of automatically generating audio reactive video
 
 #### mp32mp4
 Notebook for generating deforum settings
 
-Based on the audio spectrum at low frequencies, the following is calculated:
+### algorithm:
+I apply a bandpass filter,
+split frequencies into bass/mid/high,
+transform into wave functions (Fourier transform),
+discard outliers beyond 3 sigma,
+apply smoothing,
+normalize to given values of fluctuations,
+normalize by median where necessary,
+calculate function breaks (second derivative),
+apply corrective coefficients reducing minima at breaks.
 
- - cfgscaleschedule
- - strength_schedule
- - translation_z
-
-As well as the peaks of transformations
+### calculate:
+prompt (break points),
+config /strength (directly and inversely proportional to the amplitudes of the wave oscillations),
+changes along all coordinates according to the wave functions (X, Y, Z, 3dX, 3dY).
