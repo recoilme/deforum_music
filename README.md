@@ -5,6 +5,11 @@
 #### mp32mp4
 Notebook for generating deforum settings
 
+#### sd-webui plugin (AUTO1111)
+
+![Deforum Music](screen.png)
+
+
 ### algorithm:
 I apply a bandpass filter,
 split frequencies into bass/mid/high,
